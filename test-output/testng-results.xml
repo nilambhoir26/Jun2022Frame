@@ -2,24 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13013" started-at="2022-06-16T16:41:34Z" finished-at="2022-06-16T16:41:47Z">
+  <suite name="Default suite" duration-ms="18871" started-at="2022-06-17T08:22:35Z" finished-at="2022-06-17T08:22:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13013" started-at="2022-06-16T16:41:34Z" finished-at="2022-06-16T16:41:47Z">
-      <class name="com.qa.jun2022.Tests.LoginPgTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.jun2022.Tests.LoginPgTests@5db250b4]" name="setUp" is-config="true" duration-ms="12127" started-at="2022-06-16T16:41:34Z" finished-at="2022-06-16T16:41:46Z">
+    <test name="Default test" duration-ms="18871" started-at="2022-06-17T08:22:35Z" finished-at="2022-06-17T08:22:54Z">
+      <class name="com.qa.jun2022.Tests.AccountPageTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.jun2022.Tests.AccountPageTests@4b432e53]" name="setUp" is-config="true" duration-ms="16308" started-at="2022-06-17T08:22:35Z" finished-at="2022-06-17T08:22:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitleOfLoginPg()[pri:0, instance:com.qa.jun2022.Tests.LoginPgTests@5db250b4]" name="verifyTitleOfLoginPg" duration-ms="20" started-at="2022-06-16T16:41:46Z" finished-at="2022-06-16T16:41:46Z">
+        <test-method status="PASS" signature="AccountPgSetUp()[pri:0, instance:com.qa.jun2022.Tests.AccountPageTests@4b432e53]" name="AccountPgSetUp" is-config="true" duration-ms="1636" started-at="2022-06-17T08:22:52Z" finished-at="2022-06-17T08:22:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTitleOfLoginPg -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.jun2022.Tests.LoginPgTests@5db250b4]" name="tearDown" is-config="true" duration-ms="817" started-at="2022-06-16T16:41:46Z" finished-at="2022-06-16T16:41:47Z">
+        </test-method> <!-- AccountPgSetUp -->
+        <test-method status="PASS" signature="verifyTitleOfAcctPg()[pri:0, instance:com.qa.jun2022.Tests.AccountPageTests@4b432e53]" name="verifyTitleOfAcctPg" duration-ms="32" started-at="2022-06-17T08:22:53Z" finished-at="2022-06-17T08:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfAcctPg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.jun2022.Tests.AccountPageTests@4b432e53]" name="tearDown" is-config="true" duration-ms="827" started-at="2022-06-17T08:22:53Z" finished-at="2022-06-17T08:22:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.jun2022.Tests.LoginPgTests -->
+      </class> <!-- com.qa.jun2022.Tests.AccountPageTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

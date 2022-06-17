@@ -22,10 +22,11 @@ public class LoginPage extends BasePage {
 		return driver.getTitle(); 
 	 }
 	
-	 public void getLogin(String Username, String Password) {
+	 public AccountPage getLogin(String Username, String Password) {
 		driver.findElement(email).sendKeys(Username);
 		driver.findElement(password).sendKeys(Password);
 		driver.findElement(LoginBtn).click();
+		return new AccountPage(driver);
 	 }
 	 
 	 public boolean isForgotpswdLinkExist() {

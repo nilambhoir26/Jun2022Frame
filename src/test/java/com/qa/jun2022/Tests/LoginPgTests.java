@@ -10,13 +10,18 @@ import com.qa.jun2022.Utils.Constants;
 
 public class LoginPgTests extends BaseTest{
 	
-	
 	@Test
 	public void verifyTitleOfLoginPg() {
 		
 		String Title = Loginpg.getTitleOfLoginPg();
 		Assert.assertEquals(Title, Constants.Login_Page_Title);
 		System.out.println("Title of the Login Page is "+ Title);
+	}
+	
+	@Test
+	public void verifyLogin() {
+		Loginpg.getLogin(prop.getProperty("Username"), prop.getProperty("Password"));
+		
 	}
 
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import com.qa.jun2022.Pages.AccountPage;
 import com.qa.jun2022.Pages.LoginPage;
 
 public class BaseTest {
@@ -14,6 +15,7 @@ public class BaseTest {
 	public Properties prop;
 	public WebDriver driver;
 	public LoginPage Loginpg;
+	public AccountPage Acctpg;
 	
 	@BeforeTest
 	public void setUp() {
