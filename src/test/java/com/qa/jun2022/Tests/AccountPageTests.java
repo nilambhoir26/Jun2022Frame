@@ -11,13 +11,14 @@ public class AccountPageTests  extends BaseTest{
 	
 	@BeforeClass
 	public void AccountPgSetUp() {
-	Acctpg = Loginpg.getLogin(prop.getProperty("Username"), prop.getProperty("Password"));
+	Acctpg = Loginpg.getLogin(prop.getProperty("Username"),prop.getProperty("Password"));
 	}
 	
 	@Test
 	public void verifyTitleOfAcctPg() {
 		String Title = Acctpg.getAccountPgTitle();
 		Assert.assertEquals(Title, Constants.Account_Page_Title);
+		System.out.println("Title of Home Page is "+ Title);
 	}
 	
 	

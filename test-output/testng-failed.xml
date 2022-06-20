@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.jun2022.Tests.LoginPgTests">
+      <class name="com.qa.jun2022.Tests.RegisterPageTest">
         <methods>
+          <include name="navigateToRegister"/>
           <include name="tearDown"/>
-          <include name="verifyTitleOfLoginPg"/>
+          <include name="verifyRegsitration" invocation-numbers="0 1"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.jun2022.Tests.LoginPgTests -->
+      </class> <!-- com.qa.jun2022.Tests.RegisterPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

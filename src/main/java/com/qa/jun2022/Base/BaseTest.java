@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeTest;
 
 import com.qa.jun2022.Pages.AccountPage;
 import com.qa.jun2022.Pages.LoginPage;
+import com.qa.jun2022.Pages.RegisterPage;
+import com.qa.jun2022.Utils.ExcelUtils;
 
 public class BaseTest {
 
@@ -16,6 +18,8 @@ public class BaseTest {
 	public WebDriver driver;
 	public LoginPage Loginpg;
 	public AccountPage Acctpg;
+	public RegisterPage Registerpg;
+	public ExcelUtils excelUtil;
 	
 	@BeforeTest
 	public void setUp() {

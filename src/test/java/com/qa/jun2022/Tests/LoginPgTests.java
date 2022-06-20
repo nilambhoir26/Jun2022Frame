@@ -13,7 +13,7 @@ public class LoginPgTests extends BaseTest{
 	@Test
 	public void verifyTitleOfLoginPg() {
 		
-		String Title = Loginpg.getTitleOfLoginPg();
+		String Title =Loginpg.getTitleOfLoginPg();
 		Assert.assertEquals(Title, Constants.Login_Page_Title);
 		System.out.println("Title of the Login Page is "+ Title);
 	}
